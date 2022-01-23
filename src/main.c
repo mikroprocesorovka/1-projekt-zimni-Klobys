@@ -24,7 +24,7 @@ void setup(void)
 
     init_milis(); //inicializace mmilisu
 
-    GPIO_Init(GPIOD, GPIO_PIN_6,GPIO_MODE_OUT_PP_LOW_SLOW); // nastavíme PC5 jako výstup pro bzučák
+    GPIO_Init(GPIOD, GPIO_PIN_6,GPIO_MODE_OUT_PP_LOW_SLOW); // nastavíme PD6 jako výstup pro bzučák
     GPIO_WriteHigh(GPIOD,GPIO_PIN_6); // zapíšeme na bzučák high aby ze začátku nebzučel
 
     GPIO_Init(GPIOE, GPIO_PIN_4,GPIO_MODE_IN_FL_NO_IT); // nastavíme PE4 jako vstup (tlačítko)
