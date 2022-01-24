@@ -1,0 +1,11 @@
+*** Zimní projekt ***
+
+Zadání: Na LCD displeji se zobrazí čas, pomocí encoderu zadám
+        hodnotu a USER tlačítkem to spustím. Jakmile čas doběží,
+        tak zabzučí bzučák.
+
+Návrh:
+  =============================
+  = set                xxx  s =
+  = time left          xxx  s =
+  =============================
